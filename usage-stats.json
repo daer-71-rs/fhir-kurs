@@ -5,6 +5,12 @@
   "jurisdiction": "SE",
   "extensions": [],
   "profiles": {
+    "Encounter": [
+      {
+        "url": "http://example.org/fhir/education/kursig/StructureDefinition/EducationEncounter",
+        "title": "Min första profile (encounter)"
+      }
+    ],
     "Patient": [
       {
         "url": "http://example.org/fhir/education/kursig/StructureDefinition/EducationPatient",
@@ -24,6 +30,9 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
       "StructureDefinition.snapshot.element.type"
