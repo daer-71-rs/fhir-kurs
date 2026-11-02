@@ -2,6 +2,7 @@ Profile: EducationEncounter
 Parent: Encounter
 Id: EducationEncounter
 Title: "Min första profile (encounter)"
+Description: "Encounterprofil för FHIR-utbildningen."
 * type 1..1 MS
 * subject only Reference(EducationPatient)
 * period 1..1 MS
