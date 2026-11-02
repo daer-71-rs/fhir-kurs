@@ -3,6 +3,13 @@ Parent: Encounter
 Id: EducationEncounter
 Title: "Min första profile (encounter)"
 Description: "Encounterprofil för FHIR-utbildningen."
+
+* ^status = #draft
+
+* status MS
+* class MS
+* reasonCode MS
+
 * type 1..1 MS
 * subject only Reference(EducationPatient)
 * period 1..1 MS
@@ -11,6 +18,3 @@ Description: "Encounterprofil för FHIR-utbildningen."
 * serviceProvider 1..1 MS
 * serviceProvider.identifier 1..1 MS
 * serviceProvider.identifier.system = $hsaid
-* status MS
-* class MS
-* reasonCode MS
