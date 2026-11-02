@@ -22,5 +22,6 @@ These are example instances that show what data produced and consumed by systems
 
 | | |
 | :--- | :--- |
+| [Besök på vårdcentral](Encounter-encounter-tolvan-1.md) |  |
 | [Tolvan Tolvansson](Patient-patient-tolvan.md) | Exempelpatient (Skatteverkets klassiska testperson). |
 

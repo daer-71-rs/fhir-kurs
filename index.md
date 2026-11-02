@@ -26,7 +26,12 @@ Startläget innehåller en enda profil, [EducationPatient](StructureDefinition-E
 
 Se alla artefakter under [Artefakter](artifacts.md). Kvalitetsrapporten från IG Publisher finns i [qa.html](qa.md).
 
-Ingen användning av extern IP (annan än från FHIR-specifikationen)
+Denna publication inkluderar IP som omfattas av följande uttalanden.
+
+* This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: [https://terminology.hl7.org/license.html](https://terminology.hl7.org/license.html)
+
+* [ActCode](http://terminology.hl7.org/7.5.0/CodeSystem-v3-ActCode.html): [Encounter/encounter-tolvan-1](Encounter-encounter-tolvan-1.md)
+
 
 Detta är en R4 IG. Inga av funktionerna den använder har ändrats i R4B, så den kan användas som den är med R4B-system. Paket för både [R4 (fhir.education.kursig.r4)](package.r4.tgz) och [R4B (fhir.education.kursig.r4b)](package.r4b.tgz) är tillgängliga.
 
@@ -47,7 +52,7 @@ Detta är en R4 IG. Inga av funktionerna den använder har ändrats i R4B, så d
   "name" : "FhirEducationKursIG",
   "title" : "FHIR-utbildning – Region Stockholm - Daniel",
   "status" : "draft",
-  "date" : "2026-11-02T10:50:11+00:00",
+  "date" : "2026-11-02T10:54:04+00:00",
   "publisher" : "FHIR-utbildning",
   "description" : "En liten Implementation Guide som byggs upp steg för steg under FHIR-utbildningen.",
   "jurisdiction" : [{
@@ -394,6 +399,21 @@ Detta är en R4 IG. Inga av funktionerna den använder har ändrats i R4B, så d
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     }],
     "resource" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Encounter"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Encounter-encounter-tolvan-1.html"
+      }],
+      "reference" : {
+        "reference" : "Encounter/encounter-tolvan-1"
+      },
+      "name" : "Besök på vårdcentral",
+      "exampleCanonical" : "http://example.org/fhir/education/kursig/StructureDefinition/EducationEncounter"
+    },
+    {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"

@@ -1,18 +1,20 @@
 FhirEducationKursIG : Validation Results
 =========================================
 
-err = 0, warn = 11, info = 7, broken links = 0
+err = 0, warn = 12, info = 10, broken links = 0
 IG Publisher Version: 3.0.1
-Generated Mon Nov 02 10:50:57 UTC 2026. FHIR version 4.0.1 for fhir.education.kursig#0.1.0 (canonical = http://example.org/fhir/education/kursig)
- Build Errors : 0 / 9 / 0
+Generated Mon Nov 02 10:54:44 UTC 2026. FHIR version 4.0.1 for fhir.education.kursig#0.1.0 (canonical = http://example.org/fhir/education/kursig)
+ Build Errors : 0 / 10 / 0
+ /home/runner/work/fhir-kurs/fhir-kurs/test-ig/fsh-generated/resources/Encounter-encounter-tolvan-1 : 0 / 1 / 4
  /home/runner/work/fhir-kurs/fhir-kurs/test-ig/fsh-generated/resources/ImplementationGuide-fhir.education.kursig : 0 / 0 / 3
  /home/runner/work/fhir-kurs/fhir-kurs/test-ig/fsh-generated/resources/Patient-patient-tolvan : 0 / 1 / 1
- /home/runner/work/fhir-kurs/fhir-kurs/test-ig/fsh-generated/resources/StructureDefinition-EducationEncounter : 0 / 1 / 4
+ /home/runner/work/fhir-kurs/fhir-kurs/test-ig/fsh-generated/resources/StructureDefinition-EducationEncounter : 0 / 0 / 4
  /home/runner/work/fhir-kurs/fhir-kurs/test-ig/fsh-generated/resources/StructureDefinition-EducationPatient : 0 / 0 / 3
 </table>
 
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/EducationEncounter.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Encounter/encounter-tolvan-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: /home/runner/work/fhir-kurs/fhir-kurs/test-ig/output/searchform.html: The html source is not well formed: Found "</a>" expecting "</img>" at line 34 column 177
 WARNING: /home/runner/work/fhir-kurs/fhir-kurs/test-ig/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 79 column 10
 WARNING: /home/runner/work/fhir-kurs/fhir-kurs/test-ig/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 80 column 9
@@ -21,6 +23,13 @@ WARNING: /home/runner/work/fhir-kurs/fhir-kurs/test-ig/output/searchform.html: T
 WARNING: /home/runner/work/fhir-kurs/fhir-kurs/test-ig/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 112 column 20
 WARNING: /home/runner/work/fhir-kurs/fhir-kurs/test-ig/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 113 column 16
 WARNING: /home/runner/work/fhir-kurs/fhir-kurs/test-ig/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 115 column 12
+
+
+== fsh-generated/resources/Encounter-encounter-tolvan-1.json ==
+INFORMATION: Encounter/encounter-tolvan-1: Encounter.class.display: Inga giltiga visningsnamn hittades för koden http://terminology.hl7.org/CodeSystem/v3-ActCode#AMB för språk 'sv-SE'. Visningen är 'ambulatory' vilket är standardspråksvisningen
+INFORMATION: Encounter/encounter-tolvan-1: Encounter.class: Inga giltiga visningsnamn hittades för koden http://terminology.hl7.org/CodeSystem/v3-ActCode#AMB för språk 'sv-SE'. Visningen är 'ambulatory' vilket är standardspråksvisningen
+INFORMATION: Encounter/encounter-tolvan-1: Encounter.reasonCode[0]: Ingen av de angivna codings finns i värdemängden 'Encounter Reason Codes' (http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1), och en coding rekommenderas komma från denna värdemängd (koder = http://hl7.org/fhir/sid/icd-10#J45.9)
+WARNING: Encounter/encounter-tolvan-1: Encounter.serviceProvider.identifier.system: Ingen definition kunde hittas för URL-värdet 'urn:oid:1.2.752.29.4.19'
 
 
 == fsh-generated/resources/ImplementationGuide-fhir.education.kursig.json ==
@@ -36,7 +45,6 @@ WARNING: Patient/patient-tolvan: Patient.identifier[0].system: Ingen definition 
 INFORMATION: StructureDefinition/EducationEncounter: StructureDefinition.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#SE for language(s) 'sv-SE'. The display is 'Sweden' which is a valid display for the default language
 INFORMATION: StructureDefinition/EducationEncounter: StructureDefinition.snapshot.element[4].binding.extension[0]: extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.4.0 är föråldrad med noteringen: 'Use additionalBinding extension or element instead'
 INFORMATION: Resource: The resource StructureDefinition/EducationEncounter could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
-WARNING: StructureDefinition.where(url = 'http://example.org/fhir/education/kursig/StructureDefinition/EducationEncounter'): The Implementation Guide contains no examples for this profile
 
 
 == fsh-generated/resources/StructureDefinition-EducationPatient.json ==

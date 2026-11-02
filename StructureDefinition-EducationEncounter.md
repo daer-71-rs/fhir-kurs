@@ -13,7 +13,7 @@
 
 **Användningar:**
 
-* Denna Profil används inte av några profiler i denna implementationsguide
+* Exempel för denna Profil: [Encounter/encounter-tolvan-1](Encounter-encounter-tolvan-1.md)
 
 Du kan också kontrollera [användningar i FHIR IG-statistiken](https://packages2.fhir.org/xig/fhir.education.kursig|current/StructureDefinition/EducationEncounter)
 
@@ -38,7 +38,7 @@ Other representations of profile: [CSV](StructureDefinition-EducationEncounter.c
   "name" : "EducationEncounter",
   "title" : "Min första profile (encounter)",
   "status" : "draft",
-  "date" : "2026-11-02T10:50:11+00:00",
+  "date" : "2026-11-02T10:54:04+00:00",
   "publisher" : "FHIR-utbildning",
   "jurisdiction" : [{
     "coding" : [{
