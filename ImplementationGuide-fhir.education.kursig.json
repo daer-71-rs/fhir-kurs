@@ -10,7 +10,7 @@
   "name" : "FhirEducationKursIG",
   "title" : "FHIR-utbildning – Region Stockholm - Daniel",
   "status" : "draft",
-  "date" : "2026-11-02T12:30:28+00:00",
+  "date" : "2026-11-02T12:33:20+00:00",
   "publisher" : "FHIR-utbildning",
   "description" : "En liten Implementation Guide som byggs upp steg för steg under FHIR-utbildningen.",
   "jurisdiction" : [{
