@@ -14,7 +14,7 @@ Profil: [Min första profile (encounter)](StructureDefinition-EducationEncounter
 
 **type**: Besök
 
-**subject**: [Tolvan Tolvansson (official) Male, Födelsedatum: 1912-12-12 ( http://electronichealth.se/identifier/personnummer#191212121212)](Patient-patient-tolvan.md)
+**subject**: [Tolvan Tolvansson (official) Male, Födelsedatum: 1912-12-12 ( http://electronichealth.se/identifier/personnummer#19121212-1212)](Patient-patient-tolvan.md)
 
 **period**: 2026-10-01 09:00:00+0200 --> 2026-10-01 09:30:00+0200
 

@@ -1,13 +1,13 @@
 FhirEducationKursIG : Validation Results
 =========================================
 
-err = 0, warn = 11, info = 10, broken links = 0
+err = 1, warn = 11, info = 10, broken links = 0
 $--
 Generated $--. FHIR version $-- for fhir.education.kursig#$-- (canonical = http://example.org/fhir/education/kursig)
  Build Errors : 0 / 9 / 0
  /home/runner/work/fhir-kurs/fhir-kurs/test-ig/fsh-generated/resources/Encounter-encounter-tolvan-1 : 0 / 1 / 4
  /home/runner/work/fhir-kurs/fhir-kurs/test-ig/fsh-generated/resources/ImplementationGuide-fhir.education.kursig : 0 / 0 / 3
- /home/runner/work/fhir-kurs/fhir-kurs/test-ig/fsh-generated/resources/Patient-patient-tolvan : 0 / 1 / 1
+ /home/runner/work/fhir-kurs/fhir-kurs/test-ig/fsh-generated/resources/Patient-patient-tolvan : 1 / 1 / 1
  /home/runner/work/fhir-kurs/fhir-kurs/test-ig/fsh-generated/resources/StructureDefinition-EducationEncounter : 0 / 0 / 4
  /home/runner/work/fhir-kurs/fhir-kurs/test-ig/fsh-generated/resources/StructureDefinition-EducationPatient : 0 / 0 / 3
 </table>
@@ -38,6 +38,9 @@ INFORMATION: Resource: The resource ImplementationGuide/fhir.education.kursig co
 
 == fsh-generated/resources/Patient-patient-tolvan.json ==
 WARNING: Patient/patient-tolvan: Patient.identifier[0].system: Ingen definition kunde hittas för URL-värdet 'http://electronichealth.se/identifier/personnummer'
+ERROR: Patient/patient-tolvan: Patient: Begränsning misslyckades: edu-pat-1: 'Personnummer (identifier
+    .where(system = 'http://electronichealth.se/identifier/personnummer')
+    .all(value.matches('^[0-9]{12}$')))' (definierad i http://example.org/fhir/education/kursig/StructureDefinition/EducationPatient)
 
 
 == fsh-generated/resources/StructureDefinition-EducationEncounter.json ==
