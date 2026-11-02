@@ -8,7 +8,7 @@
 
 Profil: [Education Patient](StructureDefinition-EducationPatient.md)
 
-Tolvan Tolvansson (official) Male, Födelsedatum: 1912-12-12 ( http://electronichealth.se/identifier/personnummer#19121212-1212)
+Tolvan Tolvansson (official) Male, Födelsedatum: 1912-12-12 ( http://electronichealth.se/identifier/personnummer#191212121212)
 
 -------
 
@@ -25,7 +25,7 @@ Tolvan Tolvansson (official) Male, Födelsedatum: 1912-12-12 ( http://electronic
   },
   "identifier" : [{
     "system" : "http://electronichealth.se/identifier/personnummer",
-    "value" : "19121212-1212"
+    "value" : "191212121212"
   }],
   "name" : [{
     "use" : "official",
