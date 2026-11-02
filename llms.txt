@@ -9,7 +9,7 @@
 
 ### Resource Profiles
 
-* [Min första profile (encounter)](StructureDefinition-EducationEncounter.md)
+* [Education Encounter](StructureDefinition-EducationEncounter.md)
 * [Education Patient](StructureDefinition-EducationPatient.md)
 
 ### ImplementationGuides

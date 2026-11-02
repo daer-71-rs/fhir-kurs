@@ -20,9 +20,9 @@
   <url value="http://example.org/fhir/education/kursig/StructureDefinition/EducationEncounter"/>
   <version value="0.1.0"/>
   <name value="EducationEncounter"/>
-  <title value="Min första profile (encounter)"/>
+  <title value="Education Encounter"/>
   <status value="draft"/>
-  <date value="2026-11-02T13:02:17+00:00"/>
+  <date value="2026-11-02T13:41:41+00:00"/>
   <publisher value="FHIR-utbildning"/>
   <description value="Encounterprofil för FHIR-utbildningen."/>
   <jurisdiction>

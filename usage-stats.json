@@ -8,7 +8,7 @@
     "Encounter": [
       {
         "url": "http://example.org/fhir/education/kursig/StructureDefinition/EducationEncounter",
-        "title": "Min första profile (encounter)"
+        "title": "Education Encounter"
       }
     ],
     "Patient": [

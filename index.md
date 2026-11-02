@@ -52,7 +52,7 @@ Detta är en R4 IG. Inga av funktionerna den använder har ändrats i R4B, så d
   "name" : "FhirEducationKursIG",
   "title" : "FHIR-utbildning – Region Stockholm - Daniel",
   "status" : "draft",
-  "date" : "2026-11-02T13:02:17+00:00",
+  "date" : "2026-11-02T13:41:41+00:00",
   "publisher" : "FHIR-utbildning",
   "description" : "En liten Implementation Guide som byggs upp steg för steg under FHIR-utbildningen.",
   "jurisdiction" : [{
@@ -420,13 +420,13 @@ Detta är en R4 IG. Inga av funktionerna den använder har ändrats i R4B, så d
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "StructureDefinition-EducationPatient.html"
+        "valueUri" : "StructureDefinition-EducationEncounter.html"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/EducationPatient"
+        "reference" : "StructureDefinition/EducationEncounter"
       },
-      "name" : "Education Patient",
-      "description" : "Patientprofil för FHIR-utbildningen. Profilen byggs ut steg för steg under kursen.",
+      "name" : "Education Encounter",
+      "description" : "Encounterprofil för FHIR-utbildningen.",
       "exampleBoolean" : false
     },
     {
@@ -436,13 +436,13 @@ Detta är en R4 IG. Inga av funktionerna den använder har ändrats i R4B, så d
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "StructureDefinition-EducationEncounter.html"
+        "valueUri" : "StructureDefinition-EducationPatient.html"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/EducationEncounter"
+        "reference" : "StructureDefinition/EducationPatient"
       },
-      "name" : "Min första profile (encounter)",
-      "description" : "Encounterprofil för FHIR-utbildningen.",
+      "name" : "Education Patient",
+      "description" : "Patientprofil för FHIR-utbildningen. Profilen byggs ut steg för steg under kursen.",
       "exampleBoolean" : false
     },
     {

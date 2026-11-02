@@ -1,10 +1,10 @@
-# Min första profile (encounter) - FHIR-utbildning – Region Stockholm - Daniel v0.1.0
+# Education Encounter - FHIR-utbildning – Region Stockholm - Daniel v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **Min första profile (encounter)**
+* **Education Encounter**
 
-## Resource Profile: Min första profile (encounter) 
+## Resource Profile: Education Encounter 
 
 | | |
 | :--- | :--- |
@@ -39,9 +39,9 @@ Other representations of profile: [CSV](StructureDefinition-EducationEncounter.c
   "url" : "http://example.org/fhir/education/kursig/StructureDefinition/EducationEncounter",
   "version" : "0.1.0",
   "name" : "EducationEncounter",
-  "title" : "Min första profile (encounter)",
+  "title" : "Education Encounter",
   "status" : "draft",
-  "date" : "2026-11-02T13:02:17+00:00",
+  "date" : "2026-11-02T13:41:41+00:00",
   "publisher" : "FHIR-utbildning",
   "description" : "Encounterprofil för FHIR-utbildningen.",
   "jurisdiction" : [{

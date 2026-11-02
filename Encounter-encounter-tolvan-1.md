@@ -6,7 +6,7 @@
 
 ## Example Encounter: Besök på vårdcentral
 
-Profil: [Min första profile (encounter)](StructureDefinition-EducationEncounter.md)
+Profil: [Education Encounter](StructureDefinition-EducationEncounter.md)
 
 **status**: Finished
 
