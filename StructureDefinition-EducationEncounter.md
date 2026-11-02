@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-EducationEncounter.c
   "name" : "EducationEncounter",
   "title" : "Min första profile (encounter)",
   "status" : "draft",
-  "date" : "2026-11-02T11:01:24+00:00",
+  "date" : "2026-11-02T12:30:28+00:00",
   "publisher" : "FHIR-utbildning",
   "description" : "Encounterprofil för FHIR-utbildningen.",
   "jurisdiction" : [{
