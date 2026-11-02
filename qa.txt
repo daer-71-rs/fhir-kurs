@@ -1,10 +1,10 @@
 FhirEducationKursIG : Validation Results
 =========================================
 
-err = 0, warn = 12, info = 10, broken links = 0
+err = 0, warn = 11, info = 10, broken links = 0
 IG Publisher Version: 3.0.1
-Generated Mon Nov 02 10:54:44 UTC 2026. FHIR version 4.0.1 for fhir.education.kursig#0.1.0 (canonical = http://example.org/fhir/education/kursig)
- Build Errors : 0 / 10 / 0
+Generated Mon Nov 02 10:59:41 UTC 2026. FHIR version 4.0.1 for fhir.education.kursig#0.1.0 (canonical = http://example.org/fhir/education/kursig)
+ Build Errors : 0 / 9 / 0
  /home/runner/work/fhir-kurs/fhir-kurs/test-ig/fsh-generated/resources/Encounter-encounter-tolvan-1 : 0 / 1 / 4
  /home/runner/work/fhir-kurs/fhir-kurs/test-ig/fsh-generated/resources/ImplementationGuide-fhir.education.kursig : 0 / 0 / 3
  /home/runner/work/fhir-kurs/fhir-kurs/test-ig/fsh-generated/resources/Patient-patient-tolvan : 0 / 1 / 1
@@ -13,7 +13,6 @@ Generated Mon Nov 02 10:54:44 UTC 2026. FHIR version 4.0.1 for fhir.education.ku
 </table>
 
 == n/a ==
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/EducationEncounter.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Encounter/encounter-tolvan-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: /home/runner/work/fhir-kurs/fhir-kurs/test-ig/output/searchform.html: The html source is not well formed: Found "</a>" expecting "</img>" at line 34 column 177
 WARNING: /home/runner/work/fhir-kurs/fhir-kurs/test-ig/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 79 column 10

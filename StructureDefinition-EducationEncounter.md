@@ -11,6 +11,9 @@
 | *Official URL*:http://example.org/fhir/education/kursig/StructureDefinition/EducationEncounter | *Version*:0.1.0 |
 | Draft as of 2026-11-02 | *Computable Name*:EducationEncounter |
 
+ 
+Encounterprofil för FHIR-utbildningen. 
+
 **Användningar:**
 
 * Exempel för denna Profil: [Encounter/encounter-tolvan-1](Encounter-encounter-tolvan-1.md)
@@ -38,8 +41,9 @@ Other representations of profile: [CSV](StructureDefinition-EducationEncounter.c
   "name" : "EducationEncounter",
   "title" : "Min första profile (encounter)",
   "status" : "draft",
-  "date" : "2026-11-02T10:54:04+00:00",
+  "date" : "2026-11-02T10:59:11+00:00",
   "publisher" : "FHIR-utbildning",
+  "description" : "Encounterprofil för FHIR-utbildningen.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
