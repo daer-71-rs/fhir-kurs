@@ -32,7 +32,7 @@ WARNING: Patient/patient-tolvan: Patient.identifier[0].system: Ingen definition 
 
 == fsh-generated/resources/StructureDefinition-EducationPatient.json ==
 INFORMATION: StructureDefinition/EducationPatient: StructureDefinition.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#SE for language(s) 'sv-SE'. The display is 'Sweden' which is a valid display for the default language
-INFORMATION: StructureDefinition/EducationPatient: StructureDefinition.snapshot.element[4].binding.extension[0]: extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 är föråldrad med noteringen: 'Use additionalBinding extension or element instead'
+INFORMATION: StructureDefinition/EducationPatient: StructureDefinition.snapshot.element[4].binding.extension[0]: extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.4.0 är föråldrad med noteringen: 'Use additionalBinding extension or element instead'
 INFORMATION: Resource: The resource StructureDefinition/EducationPatient could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
