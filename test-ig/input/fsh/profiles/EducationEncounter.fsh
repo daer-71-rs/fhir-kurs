@@ -1,7 +1,7 @@
 Profile: EducationEncounter
 Parent: Encounter
 Id: EducationEncounter
-Title: "Min första profile (encounter)"
+Title: "Education Encounter"
 Description: "Encounterprofil för FHIR-utbildningen."
 
 * ^status = #draft
