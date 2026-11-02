@@ -1,4 +1,4 @@
-# fhir.education.kursig#0.1.0: FHIR-utbildning – Kurs-IG - Region Stockholm - Daniel
+# fhir.education.kursig#0.1.0: FHIR-utbildning – Region Stockholm - Daniel
 
 ## Pages
 
@@ -13,7 +13,7 @@
 
 ### ImplementationGuides
 
-* [FHIR-utbildning – Kurs-IG - Region Stockholm - Daniel](index.md)
+* [FHIR-utbildning – Region Stockholm - Daniel](index.md)
 
 ### Examples
 

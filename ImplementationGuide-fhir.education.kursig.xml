@@ -9,9 +9,9 @@
   <url value="http://example.org/fhir/education/kursig/ImplementationGuide/fhir.education.kursig"/>
   <version value="0.1.0"/>
   <name value="FhirEducationKursIG"/>
-  <title value="FHIR-utbildning – Kurs-IG - Region Stockholm - Daniel"/>
+  <title value="FHIR-utbildning – Region Stockholm - Daniel"/>
   <status value="draft"/>
-  <date value="2026-11-02T08:14:55+00:00"/>
+  <date value="2026-11-02T08:19:01+00:00"/>
   <publisher value="FHIR-utbildning"/>
   <description value="En liten Implementation Guide som byggs upp steg för steg under FHIR-utbildningen."/>
   <jurisdiction>

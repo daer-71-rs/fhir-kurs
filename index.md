@@ -1,4 +1,4 @@
-# Hem - FHIR-utbildning – Kurs-IG - Region Stockholm - Daniel v0.1.0
+# Hem - FHIR-utbildning – Region Stockholm - Daniel v0.1.0
 
 * [**Table of Contents**](toc.md)
 * **Hem**
@@ -45,9 +45,9 @@ Detta är en R4 IG. Inga av funktionerna den använder har ändrats i R4B, så d
   "url" : "http://example.org/fhir/education/kursig/ImplementationGuide/fhir.education.kursig",
   "version" : "0.1.0",
   "name" : "FhirEducationKursIG",
-  "title" : "FHIR-utbildning – Kurs-IG - Region Stockholm - Daniel",
+  "title" : "FHIR-utbildning – Region Stockholm - Daniel",
   "status" : "draft",
-  "date" : "2026-11-02T08:14:55+00:00",
+  "date" : "2026-11-02T08:19:01+00:00",
   "publisher" : "FHIR-utbildning",
   "description" : "En liten Implementation Guide som byggs upp steg för steg under FHIR-utbildningen.",
   "jurisdiction" : [{

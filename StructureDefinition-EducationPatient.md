@@ -1,4 +1,4 @@
-# Education Patient - FHIR-utbildning – Kurs-IG - Region Stockholm - Daniel v0.1.0
+# Education Patient - FHIR-utbildning – Region Stockholm - Daniel v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-EducationPatient.csv
   "name" : "EducationPatient",
   "title" : "Education Patient",
   "status" : "draft",
-  "date" : "2026-11-02T08:14:55+00:00",
+  "date" : "2026-11-02T08:19:01+00:00",
   "publisher" : "FHIR-utbildning",
   "description" : "Patientprofil för FHIR-utbildningen. Profilen byggs ut steg för steg under kursen.",
   "jurisdiction" : [{
