@@ -11,7 +11,7 @@
   <name value="FhirEducationKursIG"/>
   <title value="FHIR-utbildning – Region Stockholm - Daniel"/>
   <status value="draft"/>
-  <date value="2026-11-02T10:59:11+00:00"/>
+  <date value="2026-11-02T11:01:24+00:00"/>
   <publisher value="FHIR-utbildning"/>
   <description value="En liten Implementation Guide som byggs upp steg för steg under FHIR-utbildningen."/>
   <jurisdiction>

@@ -1,12 +1,12 @@
 Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-fhir.education.kursig.json	2593	-	0	0	0	0	0	0	7	126	0	0	0	0	0	0	0	0	0	0	34	32	0	0	0	1	0	0
-fsh-generated/resources/Encounter-encounter-tolvan-1.json	943	2	0	0	0	0	0	0	0	223	0	0	0	0	0	0	0	0	0	0	6	16	0	0	0	0	0	0
-fsh-generated/resources/Patient-patient-tolvan.json	494	1	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	4	6	0	0	0	0	0	0
-fsh-generated/resources/StructureDefinition-EducationEncounter.json	2294	1	0	96	0	0	0	1	0	372	0	0	1	0	0	0	0	2	0	0	185	632	0	0	0	7	0	1
-fsh-generated/resources/StructureDefinition-EducationPatient.json	1596	1	0	29	0	0	0	0	0	18	0	0	0	0	0	0	0	0	0	0	128	197	0	0	0	5	0	0
-/fsh-generated/includes/menu.xml	1043	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/fsh-generated/resources/ImplementationGuide-fhir.education.kursig.json	2593	-	0	0	0	0	0	0	13	151	0	0	1	0	0	0	0	1	0	0	64	58	0	0	0	6	0	0
+fsh-generated/resources/Encounter-encounter-tolvan-1.json	943	3	0	0	0	0	0	0	1	343	0	0	0	0	0	0	0	0	0	0	8	21	0	0	0	0	0	0
+fsh-generated/resources/Patient-patient-tolvan.json	494	1	0	0	1	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	5	11	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-EducationEncounter.json	2294	3	0	170	0	0	0	0	0	375	0	0	0	0	0	0	0	2	0	0	296	1092	0	0	0	15	0	2
+fsh-generated/resources/StructureDefinition-EducationPatient.json	1596	1	0	60	0	0	0	0	0	35	0	0	0	0	0	0	0	1	0	0	156	287	0	0	0	9	0	0
+/fsh-generated/includes/menu.xml	1043	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /fsh-generated/includes/fsh-link-references.md	229	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/pagecontent/index.md	1096	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /template/config	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /template/config/_config.yml	140	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/temp/pages/_includes/artifacts.xml	2887	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0	0	0	0	0	0	0
+/temp/pages/_includes/artifacts.xml	2887	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	0	0	0	0	0	0

@@ -52,7 +52,7 @@ Detta är en R4 IG. Inga av funktionerna den använder har ändrats i R4B, så d
   "name" : "FhirEducationKursIG",
   "title" : "FHIR-utbildning – Region Stockholm - Daniel",
   "status" : "draft",
-  "date" : "2026-11-02T10:59:11+00:00",
+  "date" : "2026-11-02T11:01:24+00:00",
   "publisher" : "FHIR-utbildning",
   "description" : "En liten Implementation Guide som byggs upp steg för steg under FHIR-utbildningen.",
   "jurisdiction" : [{
